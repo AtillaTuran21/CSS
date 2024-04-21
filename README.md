@@ -1,2 +1,2 @@
 # CSS
-CSS Örnekleri
+Merhabalar burada CSS ve HTML kullanarak yaptığım örnekleri paylaşıyorum.
