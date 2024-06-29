@@ -1,0 +1,173 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /*Ana table özellikleri*/
+        #table1 {
+            border-width: 10px 5px;
+            border-color:red blue;
+            border-style: solid;
+            width: 500px;
+            height: 500px;
+            
+        }
+        /*Arka plana ortalı bir şekilde image ekleme.*/
+        #ims{
+           background-size:350px    ;
+            background-position:center;
+            background-repeat:no-repeat;
+            background-image:url("imgs/download.png");
+
+        }
+      /*2.Table özellikleri*/
+      #table2{
+          width:250px;
+          height:250px;
+      }
+    /*table datala border*/
+      #td{
+         
+          border:solid;
+      }
+      /*2.Table Arka plan rengi ayarlama*/
+      #arkap2{
+          background-color:#9e6347;
+      }
+        /*1.able Arka plan rengi ayarlama*/
+      #arkap{
+          background-color:darkred;
+      }
+    </style>
+    <meta charset="utf-8" />
+    <title>Ders İşte</title>
+</head>
+<body>
+    <table id="table1">
+        <tr id="ims">
+            <td>
+                <table id="table2" >
+                    <tr id="arkap">
+                        <td id="td">
+                            No
+                        </td>
+                        <td id="td">
+                            Ad
+                        </td>
+                        <td id="td">
+                            Soyad
+                        </td>
+                        <td id="td">
+                            Not
+                        </td>
+                       
+
+                    </tr>
+                    <tr >
+                        <td id="td">
+                        </td>
+                        <td id="td">
+                        </td>
+                        <td id="td">
+                        </td>
+                        <td id="td">
+                        </td>
+                        
+
+                    </tr>
+                    <tr id="arkap">
+                        <td id="td">
+                        </td>
+                        <td id="td">
+                        </td>
+                        <td id="td">
+                        </td>
+                        <td id="td">
+                        </td>
+                        
+
+                    </tr>
+                    <tr >
+                        <td id="td">
+                        </td>
+                        <td id="td">
+                        </td>
+                        <td id="td">
+                        </td>
+                        <td id="td">
+                        </td>
+                       
+
+                    </tr>
+                    <tr id="arkap">
+                        <td id="td">
+                        </td>
+                        <td id="td">
+                        </td>
+                        <td id="td">
+                        </td>
+                        <td id="td">
+                        </td>
+                       
+
+                    </tr>
+
+
+                </table>
+
+            </td>
+            <td>
+                <form method="get" action="İndex.html">
+                    <table id="arkap2" width="235" >
+                        <tr>
+                            <td id="td">
+                                <label>Adı :</label>
+                                <!--Textbox'ın boş olmamasını saplar. -->
+                                <input type="text" required placeholder="Adınızı yazın" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="td">
+                                <label >Soyad:</label><input type="text" placeholder="Soyasınızı yazın" />
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="td">
+                                <label>Mail :</label>
+                                <input type="email" required placeholder="Mailinizi Giriniz"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="td">
+
+                                <label>TC :</label>
+                                <input type="text" required maxlength="11" placeholder="TC'nizi Giriniz" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="td">
+
+                                <label>Cinsiyet : </label>
+                                <input  type="radio" width="30" name="cins" />
+                              <input  type="radio" width="30" name="cins" />
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <!--Sıfırlama ve Gönderme butonları-->
+                                <input type="reset" />      <input type="submit" />
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+               
+
+            </td>
+        </tr>
+
+    </table>
+   
+
+</body>
+</html>

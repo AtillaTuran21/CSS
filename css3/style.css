@@ -1,0 +1,40 @@
+.mainDiv{
+    width: 60%;
+    background-color: bisque;
+    height: 700px;
+    padding-top: 1%;
+}
+.hotbar{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    width: 90%;
+    background-color: lightblue;
+    height: 15%;
+}
+.nav{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    width: 23%;
+    background-color: gray;
+    height: 15%;
+    float: left;
+}
+.section{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    width: 90%;
+    clear:both;
+    background-color: lightcoral;
+    height: 15%;
+}
+.footer{
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 40%;
+    background-color: lightsalmon;
+    height: 20%;
+    float: left;
+}
